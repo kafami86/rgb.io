@@ -1,0 +1,19 @@
+@keyframes RGB {
+
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: blue;
+    }
+
+}
+
+body {
+    animation: RGB 0.5s ease-in-out infinite;
+}
